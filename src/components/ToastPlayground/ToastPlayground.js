@@ -46,6 +46,7 @@ function ToastPlayground() {
               className={styles.messageInput}
               value={message}
               onChange={(event) => setMessage(event.target.value)}
+              required
             />
           </div>
         </div>
